@@ -1,5 +1,6 @@
 // Code your solution in this file!
 
 const returnFirstTwoDrivers = function (array){
-  return const newArray = array.slice(0,2);
+  const newArray = array.slice(0,2);
+  return newArray;
 };
