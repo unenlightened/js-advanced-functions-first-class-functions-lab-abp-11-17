@@ -18,6 +18,8 @@ function createFareMultiplier(multiplier){
   return fareMultiplier;
 }
 
+const fareQuintupler = createFareMultiplier(5);
+
 /*describe('createFareMultiplier()', function () {
   it('returns a function', function () {
     const fareMultiplier = createFareMultiplier(2);
