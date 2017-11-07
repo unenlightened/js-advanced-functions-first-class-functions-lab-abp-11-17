@@ -6,6 +6,6 @@ const returnFirstTwoDrivers = function (array){
 };
 
 const returnLastTwoDrivers = function (array){
-  const newArray = array.slice(array.length-1, array.length);
+  const newArray = array.slice(array.length-2, array.length-1);
   return console.log(newArray);
 };
