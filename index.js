@@ -1,7 +1,7 @@
 // Code your solution in this file!
 
 const returnFirstTwoDrivers = function (collection){
-  for ((const key in collection) > 2){
+  for ((const key of collection)){
     return console.log(collection);
   }
 };
