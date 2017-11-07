@@ -10,8 +10,8 @@ const returnLastTwoDrivers = function (array){
   return newArray;
 };
 
-function selectingDrivers(){
-  
+function selectingDrivers(fn1, fn2){
+
 }
 /* describe('selectingDrivers', function () {
   it('has the `returnFirstTwoDrivers` function to as its first element', function () {
