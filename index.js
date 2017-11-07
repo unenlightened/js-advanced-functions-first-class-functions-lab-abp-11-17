@@ -7,5 +7,5 @@ const returnFirstTwoDrivers = function (array){
 
 const returnLastTwoDrivers = function (array){
   const newArray = array.slice(array.length-1, array.length);
-  return newArray;
+  return console.log(newArray);
 };
