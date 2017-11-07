@@ -10,10 +10,8 @@ const returnLastTwoDrivers = function (array){
   return newArray;
 };
 
-function selectingDrivers(fn1, fn2){
-  console.log(selectingDrivers[0]);
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-}
 /* describe('selectingDrivers', function () {
   it('has the `returnFirstTwoDrivers` function to as its first element', function () {
     expect(selectingDrivers[0]).to.eql(returnFirstTwoDrivers);
