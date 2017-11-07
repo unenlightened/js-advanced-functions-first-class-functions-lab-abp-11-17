@@ -2,6 +2,6 @@
 
 const returnFirstTwoDrivers = function (collection){
   for (const key in collection > 2){
-    return collection;
+    return console.log(collection);
   }
 };
