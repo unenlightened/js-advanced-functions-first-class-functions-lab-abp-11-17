@@ -18,8 +18,4 @@ const createFareMultiplier = function (multiplier){
   };
 }
 
-//const fareMultiplier = createFareMultiplier(2);
-
-//const fareQuintupler = createFareMultiplier(5);
-
-//expect(fareQuintupler(5)).to.eql(25);
+const fareDoubler = createFareMultiplier(2);
