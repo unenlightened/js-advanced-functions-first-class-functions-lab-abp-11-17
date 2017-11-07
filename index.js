@@ -1,9 +1,9 @@
 // Code your solution in this file!
 
-const returnFirstTwoDrivers = function (collection){
-  for (const key in collection){
-    if (key < 2){
-      return console.log(collection);
+const returnFirstTwoDrivers = function (array){
+  for (const data in array){
+    if (data < 2){
+      return console.log(array);
     }
   }
 };
