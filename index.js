@@ -2,6 +2,6 @@
 
 const returnFirstTwoDrivers = function (array){
   for (i = 0; i<2; i++){
-      return console.log(array);
+      return console.log(array[i]);
   }
 };
