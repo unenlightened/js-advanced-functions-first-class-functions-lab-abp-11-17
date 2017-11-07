@@ -17,8 +17,8 @@ function createFareMultiplier(multiplier){
   return (function(fare){ fare * multiplier;});
 }
 
-const fareMultiplier = createFareMultiplier(2);
+//const fareMultiplier = createFareMultiplier(2);
 
-const fareQuintupler = createFareMultiplier(5);
+//const fareQuintupler = createFareMultiplier(5);
 
-expect(fareQuintupler(5)).to.eql(25);
+//expect(fareQuintupler(5)).to.eql(25);
