@@ -11,6 +11,7 @@ const returnLastTwoDrivers = function (array){
 };
 
 function selectingDrivers(fn1, fn2){
+  fn1();
 
 }
 /* describe('selectingDrivers', function () {
